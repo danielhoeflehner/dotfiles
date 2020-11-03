@@ -52,26 +52,3 @@ end_of_line = lf
 # Makefiles
 [Makefile]
 indent_style = tab
-
-##########################################
-# .NET Language Conventions
-# https://docs.microsoft.com/visualstudio/ide/editorconfig-language-conventions
-##########################################
-
-[*.cs]
-max_line_length = 120
-
-# New line preferences
-end_of_line = lf
-insert_final_newline = true
-
-#### C# Formatting Rules ####
-
-# New line preferences
-csharp_new_line_before_catch = false
-csharp_new_line_before_else = false
-csharp_new_line_before_finally = false
-csharp_new_line_before_members_in_anonymous_types = false
-csharp_new_line_before_members_in_object_initializers = false
-csharp_new_line_before_open_brace = local_functions, methods, types, properties, object_collection_array_initializers
-csharp_new_line_between_query_expression_clauses = true

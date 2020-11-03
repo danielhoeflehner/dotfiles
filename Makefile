@@ -19,6 +19,6 @@ HEADERS = $(wildcard *.h)
 main: $(SOURCES) $(HEADERS)
 > $(CXX) $(CXXFLAGS) -o $@ $(SOURCES)
 
+.PHONY: clean
 clean:
 > rm -f *.o main
-.PHONY: clean

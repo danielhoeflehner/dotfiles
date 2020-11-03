@@ -1,0 +1,136 @@
+// Place your settings in this file to overwrite the default settings
+{
+  "C_Cpp.intelliSenseEngine": "Default",
+  "C_Cpp.updateChannel": "Insiders",
+  "csharp.referencesCodeLens.enabled": false,
+  "csharp.semanticHighlighting.enabled": true,
+  "debug.javascript.usePreview": true,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.lineHeight": 24,
+  "explorer.autoReveal": false,
+  "explorer.openEditors.visible": 0,
+  "explorer.confirmDelete": false,
+  "editor.fontFamily": "Cascadia Code PL",
+  "editor.fontLigatures": true,
+  "editor.lineNumbers": "relative",
+  "editor.formatOnPaste": true,
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.renderWhitespace": "boundary",
+  "editor.formatOnSave": true,
+  "editor.semanticHighlighting.enabled": true,
+  "files.eol": "\n",
+  "files.autoSave": "onFocusChange",
+  "files.associations": {
+    "*.svelte": "html",
+  },
+  "omnisharp.useGlobalMono": "never",
+  "terminal.integrated.shell.windows": "C:\\Programme\\PowerShell\\6\\pwsh.exe",
+  "terminal.integrated.shellArgs.windows": [],
+  "terminal.integrated.fontFamily": "Cascadia Mono PL",
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "j",
+        "j"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    }
+  ],
+  "vim.normalModeKeyBindings": [
+    {
+      "before": [
+        "<leader>",
+        "d"
+      ],
+      "after": [
+        "d",
+        "d"
+      ]
+    },
+    {
+      "before": [
+        "<C-n>"
+      ],
+      "after": [],
+      "commands": [
+        {
+          "command": ":nohl"
+        }
+      ]
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false,
+    "<C-b>": false,
+    "<C-c>": true,
+    "<C-v>": true,
+  },
+  "window.zoomLevel": 0,
+  "workbench.startupEditor": "welcomePage",
+  "workbench.colorCustomizations": {
+    "[Default Dark+]": {
+      "terminal.background": "#000000"
+    },
+    "[Night Owl]": {
+      "activityBar.background": "#000C1D",
+      "activityBar.border": "#102a44",
+      "sideBar.background": "#001122",
+      "sideBar.border": "#102a44",
+      "sideBar.foreground": "#8BADC1"
+    },
+    "[Night Owl No Italics]": {
+      "activityBar.background": "#000C1D",
+      "activityBar.border": "#102a44",
+      "sideBar.background": "#001122",
+      "sideBar.border": "#102a44",
+      "sideBar.foreground": "#8BADC1"
+    }
+  },
+  "[aspnetcorerazor]": {
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  "[c]": {
+    "editor.tabSize": 2,
+    "editor.quickSuggestions": true,
+    "editor.defaultFormatter": "xaver.clang-format",
+  },
+  "[cpp]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "xaver.clang-format",
+  },
+  "[csharp]": {
+    "editor.tabSize": 4,
+  },
+  "[css]": {
+    "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+}
